@@ -29,13 +29,20 @@
   },
   "name":"Game_Jam_GAMENAME",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
+    {"id":{"name":"Inside","path":"rooms/Inside/Inside.yy",},},
+    {"id":{"name":"Outside","path":"rooms/Outside/Outside.yy",},},
+    {"id":{"name":"obj_jackinthebox","path":"sprites/obj_jackinthebox/obj_jackinthebox.yy",},},
+    {"id":{"name":"obj_key","path":"sprites/obj_key/obj_key.yy",},},
+    {"id":{"name":"obj_necklace","path":"sprites/obj_necklace/obj_necklace.yy",},},
+    {"id":{"name":"obj_teddybear","path":"sprites/obj_teddybear/obj_teddybear.yy",},},
+    {"id":{"name":"obj_toycar","path":"sprites/obj_toycar/obj_toycar.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Outside","path":"rooms/Outside/Outside.yy",},},
+    {"roomId":{"name":"Inside","path":"rooms/Inside/Inside.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
