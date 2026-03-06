@@ -37,6 +37,7 @@
     {"id":{"name":"obj_necklace","path":"sprites/obj_necklace/obj_necklace.yy",},},
     {"id":{"name":"obj_teddybear","path":"sprites/obj_teddybear/obj_teddybear.yy",},},
     {"id":{"name":"obj_toycar","path":"sprites/obj_toycar/obj_toycar.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
