@@ -42,22 +42,11 @@
     {"id":{"name":"obj_teddybear","path":"sprites/obj_teddybear/obj_teddybear.yy",},},
     {"id":{"name":"obj_title","path":"sprites/obj_title/obj_title.yy",},},
     {"id":{"name":"obj_toycar","path":"sprites/obj_toycar/obj_toycar.yy",},},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    {"roomId":{"name":"outside","path":"rooms/outside/outside.yy",},},
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     {"roomId":{"name":"Inside","path":"rooms/Inside/Inside.yy",},},
   ],
   "templateType":"game",
