@@ -40,20 +40,11 @@ if (!_mouse_over_any) {
 
 // 4. Trigger Action
 if (_select) {
-    if (menu_index == 0) room_goto(rm_game); // Make sure this room exists!
-    if (menu_index == 1) game_end();
-}
-// 4. Trigger Action
-if (_select) {
-    switch (menu_index) {
-        case 0: 
-            // "Start Game" is selected
-            room_goto(rm_game_world); 
-            break;
-            
-        case 1: 
-            // "Quit" is selected
-            game_end(); 
-            break;
+    if (menu_index == 0) {
+        room_goto_next(); // Moves to the next room in your Asset Browser list
+    }
+    
+    if (menu_index == 1) {
+        game_end();
     }
 }
