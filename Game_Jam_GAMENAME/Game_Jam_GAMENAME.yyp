@@ -11,7 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Rooms/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -29,10 +29,13 @@
   },
   "name":"Game_Jam_GAMENAME",
   "resources":[
+    {"id":{"name":"doorknob","path":"objects/doorknob/doorknob.yy",},},
+    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"inside","path":"rooms/inside/inside.yy",},},
     {"id":{"name":"outside","path":"rooms/outside/outside.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

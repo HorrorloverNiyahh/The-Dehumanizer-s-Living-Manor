@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object1",
+  "%Name":"Object2",
   "eventList":[],
   "managed":true,
-  "name":"Object1",
+  "name":"Object2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"obj_character",
-    "path":"sprites/obj_character/obj_character.yy",
+    "name":"Sprite2",
+    "path":"sprites/Sprite2/Sprite2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
