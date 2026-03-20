@@ -11,14 +11,14 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Rooms/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Tile Sets/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -29,14 +29,18 @@
   },
   "name":"Game_Jam_GAMENAME",
   "resources":[
+    {"id":{"name":"doorknob","path":"objects/doorknob/doorknob.yy",},},
+    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
+    {"id":{"name":"Object3","path":"objects/Object3/Object3.yy",},},
+    {"id":{"name":"inside","path":"rooms/inside/inside.yy",},},
+    {"id":{"name":"outside","path":"rooms/outside/outside.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"rm_Inside","path":"rooms/rm_Inside/rm_Inside.yy",},},
-=======
-    {"id":{"name":"Inside","path":"rooms/Inside/Inside.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"obj_character","path":"sprites/obj_character/obj_character.yy",},},
     {"id":{"name":"obj_jackinthebox","path":"sprites/obj_jackinthebox/obj_jackinthebox.yy",},},
@@ -52,12 +56,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"outside","path":"rooms/outside/outside.yy",},},
+    {"roomId":{"name":"inside","path":"rooms/inside/inside.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-<<<<<<< Updated upstream
     {"roomId":{"name":"rm_Inside","path":"rooms/rm_Inside/rm_Inside.yy",},},
-=======
-    {"roomId":{"name":"Inside","path":"rooms/Inside/Inside.yy",},},
->>>>>>> Stashed changes
   ],
   "templateType":"game",
   "TextureGroups":[
